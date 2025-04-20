@@ -1,4 +1,4 @@
-for i, v in game.Workspace:WaitForChild("EggHunt"):GetChildren() do
+for i, v in game.Workspace:WaitForChild("EggHunt"):GetDescendants() do
     local high = Instance.new("Highlight")
     high.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
     high.OutlineColor = Color3.fromRGB(255, 255, 255)
